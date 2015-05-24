@@ -1,6 +1,4 @@
-path <- setwd("C:\\Users\\396284\\Documents\\Courses completed\\Coursera\\Getting and Cleaning Data\\getdata-projectfiles-UCI HAR Dataset")
-
-# 1
+# 1. Merges the training and the test sets to create one data set
 
 trainData <- read.table("C:\\Users\\396284\\Documents\\Courses completed\\Coursera\\Getting and Cleaning Data\\getdata-projectfiles-UCI HAR Dataset\\UCI HAR Dataset\\train\\X_train.txt")
 dim(trainData)
